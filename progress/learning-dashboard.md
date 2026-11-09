@@ -1,37 +1,35 @@
 # Learning Dashboard
 
-**Status:** Session 01 in progress; learner answers pending  
-**Last updated:** 2026-11-09  
-**Completed formal sessions:** 0 (Session 01 is not yet complete)  
-**Current session:** [Session 01 — JavaScript Objects and Safe Data Transformation](../session-reports/2026-11-09-session-01.md)  
-**Session rule:** Exactly 10 tips per session
+**Status:** Session 01 in progress — initial answers evaluated; targeted retest pending  
+**Last updated:** 2026-11-10  
+**Completed formal sessions:** 0  
+**Current session:** [Session 01 — JavaScript Objects and Safe Data Transformation](../session-reports/2026-11-09-session-01.md)
 
 ## Current focus
-1. Complete Session 01 exercises and review the learner's reasoning.
-2. Establish demonstrated ability in object enumeration, ownership, copying, immutability, and array transformations.
-3. Continue progressively into object descriptors/prototypes and additional array methods after prerequisites are assessed.
+1. Retest own-property vs inherited/enumerable-property enumeration.
+2. Re-teach shallow copying and shared nested references; learner explicitly reported not understanding Q2.
+3. Improve API query validation: input shape, required fields, positive integer constraints, allowed sort values, and avoiding mutation.
 
 ## Progress summary
-| Area | Status | Next action |
+| Area | Status | Evidence / next action |
 |---|---|---|
-| JavaScript fundamentals | Unassessed | Assess as needed during future sessions |
-| Objects and arrays | Introduced | Review Session 01 exercises |
+| Object.keys() / Object.entries() | Introduced; partial understanding | Q1 incorrectly included inherited and non-enumerable properties; retest |
+| Object.hasOwn() vs in | Practicing | Correctly predicted true/false in Q1; verify explanation |
+| Object.fromEntries() / filter() | Introduced | Recognized transformation pipeline; implementation needs correction |
+| Shallow copying | Needs re-teaching | Learner explicitly said Q2 was not understood |
+| API input validation | Introduced; needs practice | Correctly stated key filtering alone is insufficient; implementation has logic/value-validation gaps |
 | Functions and scope | Unassessed | Baseline questions |
-| Asynchronous JavaScript | Unassessed | Baseline questions |
-| React | Unassessed | Assess current project knowledge |
-| Node.js and Express | Unassessed | Assess current project knowledge |
-| TypeScript | Unassessed | Assess current project knowledge |
-| Databases | Unassessed | Assess SQL/Drizzle knowledge |
-| Authentication and security | Unassessed | Assess HTTP/OAuth/OIDC knowledge |
+| Async JavaScript | Unassessed | Baseline questions |
+| React, Node.js, TypeScript, databases, authentication | Unassessed | Assess in later sessions |
 
 ## Learning cadence
-- **Spaced repetition:** first review of Session 01 concepts due 2026-11-10; subsequent intervals approximately 3, 7, and 14 days after successful recall.
-- **Monthly assessment:** first cumulative assessment target 2026-12-09, subject to the learner having enough completed material to assess meaningfully.
-- **Project application:** plan a small feature after every 4 completed sessions. Session 01 is still in progress and does not count toward that milestone.
+- **Next targeted review:** 2026-11-10; prioritize own vs inherited/enumerable properties, shallow copy, and safe query normalization.
+- Advance spaced-repetition intervals only after demonstrated recall.
+- **Monthly assessment target:** 2026-12-09, if enough material has been completed.
+- **Project application:** after 4 completed sessions. Session 01 is not yet complete.
 
 ## Rules
 - Do not mark topics mastered based on exposure alone.
-- Record evidence: correct explanations, code, debugging, and transfer to unfamiliar cases.
-- Revisit weak topics through spaced revision.
-- Keep each session to exactly 10 tips; questions and practice should reinforce those tips.
-- Never record an unanswered exercise as correct or completed.
+- Record evidence from explanations, code, debugging, and transfer to unfamiliar cases.
+- Keep exactly 10 tips per teaching session; follow-up evaluation and targeted retests reinforce those tips.
+- Never record an unanswered or misunderstood exercise as correct.
