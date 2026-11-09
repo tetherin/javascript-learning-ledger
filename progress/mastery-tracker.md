@@ -9,9 +9,15 @@ Mastery levels:
 
 | Topic | Subtopic / API | Level | Evidence | Gaps / next action |
 |---|---|---|---|---|
-| JavaScript objects | Object.entries() | Unassessed | No baseline test yet | Assess iteration, conversion, edge cases |
-| JavaScript arrays | Core array methods | Unassessed | No baseline test yet | Assess mutation vs non-mutation |
-| Functions | Scope and closures | Unassessed | No baseline test yet | Baseline assessment |
-| Async JavaScript | Promises and async/await | Unassessed | No baseline test yet | Baseline assessment |
+| JavaScript objects | Object.keys(), Object.values(), Object.entries() | Introduced | Session 01 teaching; answers pending | Explain own/enumerable/string-keyed behavior and ordering |
+| JavaScript objects | Object.fromEntries() | Introduced | Session 01 teaching; answers pending | Build a filtered object transformation |
+| JavaScript objects | Object.hasOwn() vs in | Introduced | Session 01 teaching; answers pending | Distinguish own properties from prototype-chain membership |
+| JavaScript objects | Object.assign() and object spread | Introduced | Session 01 teaching; answers pending | Explain target mutation, getters/setters, shallow copy |
+| JavaScript objects | Shallow vs deep copying | Introduced | Session 01 teaching; answers pending | Identify shared nested references and choose safe copy strategy |
+| JavaScript objects | Object.freeze() vs Object.seal() | Introduced | Session 01 teaching; answers pending | Explain writable/configurable/extensible and shallow behavior |
+| JavaScript arrays | map() vs forEach() | Introduced | Session 01 teaching; answers pending | Choose transformation vs side effect |
+| JavaScript arrays | sort() vs toSorted() | Introduced | Session 01 teaching; answers pending | Explain mutation, comparator, and runtime support |
+| Functions | Scope and closures | Unassessed | No assessment yet | Baseline questions |
+| Async JavaScript | Promises and async/await | Unassessed | No assessment yet | Baseline questions |
 
-Add one row per meaningful subtopic. Include date and session report link in evidence when available.
+Only advance a level after reviewing the learner's actual answer or implementation. Include date and session report link in evidence when available.
