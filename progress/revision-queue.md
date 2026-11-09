@@ -1,21 +1,20 @@
 # Revision Queue
 
-## Due and scheduled reviews
+## Priority reviews
 
 | Priority | Topic | Reason | Review date | Interval | Status |
 |---|---|---|---|---|---|
-| High | Object.keys(), Object.values(), Object.entries() | Newly introduced; verify ownership/enumerability and ordering | 2026-11-10 | 1 day | Scheduled |
-| High | Object.fromEntries() transformation pipeline | Newly introduced; verify independent implementation | 2026-11-10 | 1 day | Scheduled |
-| High | Object.hasOwn() vs in | Important for input handling and prototype-chain correctness | 2026-11-10 | 1 day | Scheduled |
-| High | Object.assign() and spread | Common mutation and shallow-copy pitfalls | 2026-11-10 | 1 day | Scheduled |
-| High | Shallow vs deep copying | Prevent accidental shared-state mutation | 2026-11-10 | 1 day | Scheduled |
-| Medium | Object.freeze() vs Object.seal() | Verify property constraints and shallow behavior | 2026-11-10 | 1 day | Scheduled |
-| Medium | map() vs forEach() | Verify return values and intended use | 2026-11-10 | 1 day | Scheduled |
-| Medium | sort() vs toSorted() | Verify mutation and comparator behavior | 2026-11-10 | 1 day | Scheduled |
+| High | Own vs inherited and enumerable properties; Object.keys()/Object.entries() | Q1 included inherited and non-enumerable properties incorrectly | 2026-11-10 | Targeted re-teach | Due |
+| High | Shallow copy and nested object references | Learner explicitly reported not understanding Q2 | 2026-11-10 | Targeted re-teach | Due |
+| High | Safe query normalization with entries/filter/fromEntries | Q3 approach was directionally correct but implementation has logic and validation bugs | 2026-11-10 | Targeted practice | Due |
+| Medium | Object.hasOwn() vs in | Q1 second output was correct; verify explanation | 2026-11-10 | Recall check | Due |
+| Medium | Object.freeze() vs Object.seal() | Introduced, not assessed | 2026-11-10 | Recall check | Due |
+| Medium | map() vs forEach() | Introduced, not assessed | 2026-11-10 | Recall check | Due |
+| Medium | sort() vs toSorted() | Introduced, not assessed | 2026-11-10 | Recall check | Due |
 
 ## Spaced-repetition policy
 - First review: about 1 day after teaching.
 - After successful recall: schedule the next review about 3 days later, then 7 days, then 14 days.
-- If recall is weak or incorrect: record the misconception and review sooner rather than advancing the interval.
-- Reschedule only after observing the learner's answer; do not assume success.
-- Due reviews can occupy some of the 10 daily tips when they are substantive concepts. Never exceed exactly 10 tips.
+- If recall is weak or incorrect, record the misconception and review sooner.
+- Do not advance an interval merely because an explanation was shown; require an independent answer.
+- Due reviews can occupy some of the 10 daily tips when substantive. Never exceed exactly 10 tips.
