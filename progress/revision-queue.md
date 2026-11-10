@@ -4,13 +4,15 @@
 
 | Priority | Topic | Reason | Review date | Interval | Status |
 |---|---|---|---|---|---|
-| High | Own vs inherited and enumerable properties; Object.keys()/Object.entries() | Q1 included inherited and non-enumerable properties incorrectly | 2026-11-10 | Targeted re-teach | Due |
-| Medium | Shallow copy, nested references, and structuredClone() | Learner passed both a basic reference-prediction exercise and a practical shared-headers bug; review retention and edge cases | 2026-11-17 | 7-day spaced review | Practical transfer passed |
-| High | Safe query normalization with entries/filter/fromEntries | Q3 approach was directionally correct but implementation has logic and validation bugs | 2026-11-10 | Targeted practice | Due |
-| Medium | Object.hasOwn() vs in | Q1 second output was correct; verify explanation | 2026-11-10 | Recall check | Due |
-| Medium | Object.freeze() vs Object.seal() | Introduced, not assessed | 2026-11-10 | Recall check | Due |
-| Medium | map() vs forEach() | Introduced, not assessed | 2026-11-10 | Recall check | Due |
-| Medium | sort() vs toSorted() | Introduced, not assessed | 2026-11-10 | Recall check | Due |
+| High | Own vs inherited and enumerable properties; Object.keys()/Object.entries() | Session 01 Q1 included inherited and non-enumerable properties incorrectly | 2026-11-10 | Targeted retest | Re-taught in Session 02; answer pending |
+| High | Safe query normalization and validation | Session 01 Q3 had guard, mutation, numeric-validation, and allowlist issues | 2026-11-10 | Targeted implementation | Re-taught in Session 02; implementation pending |
+| Medium | Object.hasOwn() vs in | Q1 second output was correct; verify explanation and application | 2026-11-10 | Recall check | Reviewed in Session 02; answer pending |
+| Medium | Object.freeze() vs Object.seal() | Introduced in Session 01, not assessed | 2026-11-10 | Recall check | Reviewed in Session 02; answer pending |
+| Medium | map() vs forEach() | Introduced in Session 01, not assessed | 2026-11-10 | Recall check | Reviewed in Session 02; answer pending |
+| Medium | sort() vs toSorted() | Introduced in Session 01, not assessed | 2026-11-10 | Recall check | Reviewed in Session 02; answer pending |
+| Medium | Property descriptors and Object.defineProperty() | New Session 02 concepts; independent recall not demonstrated | 2026-11-11 | 1-day first review | Scheduled |
+| Medium | Prototype pollution and safe dictionary choices | New Session 02 concept; case-based application not demonstrated | 2026-11-11 | 1-day first review | Scheduled |
+| Medium | Shallow copy, nested references, and structuredClone() | Learner passed basic prediction and practical shared-headers bug fix | 2026-11-17 | 7-day spaced review | Scheduled |
 
 ## Spaced-repetition policy
 - First review: about 1 day after teaching.
