@@ -1,21 +1,33 @@
 # Session History
 
+## 2026-11-12 — Session 04: Property Semantics, Object Copying, and Reliable Backend Input
+- **Status:** In progress — exactly 10 concepts taught; first output-prediction checkpoint pending.
+- Read README, dashboard, mastery tracker, revision queue, session history, and Session 03 report before teaching.
+- Exactly 10 concepts:
+  1. Enumeration API recall: Object.keys, Object.getOwnPropertyNames, Reflect.ownKeys, and for...in.
+  2. Object.defineProperty defaults, strict-mode assignment, and return value.
+  3. Non-configurable descriptor invariants and the one-way writable transition.
+  4. Accessor descriptors; getter/setter invocation versus Object.defineProperty reconfiguration.
+  5. Descriptor-preserving shallow copy versus spread and structuredClone.
+  6. Object.assign versus object spread: target mutation, return value, inherited setters, and source getters.
+  7. preventExtensions/seal/freeze and Object.isExtensible/isSealed/isFrozen.
+  8. Map versus Object.create(null) for dynamic dictionaries.
+  9. Express req.query as untrusted input and TypeScript unknown/runtime narrowing.
+  10. Promise.all versus Promise.allSettled, sequential processing, and bounded-concurrency trade-offs.
+- First checkpoint assigned: predict output and explain Object.assign invoking an inherited setter versus object spread creating a new object property. No answer received in this automation run.
+- Sessions 01–03 remain in progress with their outstanding exercises unanswered.
+- No mastery upgrades made from teaching alone.
+- First recall review for descriptor invariants, descriptor copies, assign/spread, safe dictionaries, and query validation scheduled for 2026-11-13.
+- Shallow-copy spaced review remains 2026-11-17.
+- Monthly assessment remains targeted for approximately 2026-12-09, conditional on sufficient completed material.
+- No project milestone yet: four completed formal sessions have not been reached.
+- [Session report](../session-reports/2026-11-12-session-04.md)
+
 ## 2026-11-11 — Session 03: Property Semantics, Copying, and Safe Request Data
 - **Status:** In progress — exactly 10 concepts taught; exercises pending.
 - Read README, dashboard, mastery tracker, revision queue, session history, and Session 02 report before teaching.
-- Exactly 10 concepts:
-  1. Enumeration API differences: Object.keys, Object.getOwnPropertyNames, Reflect.ownKeys, and for...in.
-  2. Ownership vs enumerability: in, Object.hasOwn, propertyIsEnumerable.
-  3. Reading own property descriptors.
-  4. Object.defineProperty defaults and non-configurable invariants.
-  5. Accessor descriptors and getter/setter behavior.
-  6. Descriptor-preserving shallow copies with Object.getOwnPropertyDescriptors and Object.create.
-  7. preventExtensions vs seal vs freeze.
-  8. map vs forEach, async forEach trap, Promise.all vs sequential iteration.
-  9. sort vs toSorted, comparator correctness, and shallow copy behavior.
-  10. Prototype pollution defenses, Map/null-prototype dictionaries, and safe Express query input handling.
-- Exercise A (enumeration/descriptor output prediction) and Exercise B (getLimit bug hunt and implementation) assigned; no answers received yet.
-- Sessions 01 and 02 remain in progress with their outstanding exercises unanswered.
+- Exactly 10 concepts: enumeration APIs; ownership vs enumerability; descriptors; defineProperty defaults/invariants; accessors; descriptor-preserving shallow copies; preventExtensions/seal/freeze; map/forEach async trap; sort/toSorted shallow-copy behavior; prototype pollution and untrusted Express query data.
+- Session 03 Exercises A and B assigned; no answers recorded.
 - No mastery upgrades made from teaching alone.
 - [Session report](../session-reports/2026-11-11-session-03.md)
 
