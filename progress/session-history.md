@@ -1,5 +1,28 @@
 # Session History
 
+## 2026-11-13 — Session 05: Object Assignment Semantics and Safe Backend Boundaries
+- **Status:** In progress — exactly 10 concepts taught; exercises pending.
+- Read README, dashboard, mastery tracker, revision queue, session history, and Session 04 report before teaching.
+- Exactly 10 concepts:
+  1. Object.assign source Get / target Set semantics, mutation, and return identity.
+  2. Object spread creates own data properties; inherited target setters are not invoked.
+  3. Source getter execution in assign/spread versus descriptor retrieval.
+  4. Object.assign partial target mutation when a later write throws.
+  5. Shallow merge precedence and explicit nested headers merging.
+  6. Descriptor-preserving shallow copies and accessor retention.
+  7. Non-configurable writable-to-non-writable one-way transition.
+  8. Object.hasOwn presence checks, including own properties with undefined values.
+  9. Express query boundary validation using TypeScript unknown and numeric syntax/range checks.
+  10. Promise.allSettled ordering and bounded concurrency strategies.
+- Assigned output prediction, bug-finding, parseLimit implementation, and batch-job case analysis; no learner answers received in this run.
+- Session 04's earlier Object.assign/spread checkpoint remains unanswered; Sessions 01–03 exercises also remain outstanding.
+- No mastery upgrades made from teaching alone.
+- Session 04 due reviews were retaught but remain pending independent evidence; Session 05 first recall scheduled for 2026-11-14.
+- Shallow-copy review remains scheduled for 2026-11-17.
+- Monthly assessment remains targeted for approximately 2026-12-09, conditional on sufficient completed material.
+- No project milestone: four completed formal sessions have not been reached.
+- [Session report](../session-reports/2026-11-13-session-05.md)
+
 ## 2026-11-12 — Session 04: Property Semantics, Object Copying, and Reliable Backend Input
 - **Status:** In progress — exactly 10 concepts taught; first output-prediction checkpoint pending.
 - Read README, dashboard, mastery tracker, revision queue, session history, and Session 03 report before teaching.
