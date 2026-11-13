@@ -19,6 +19,14 @@
 | Medium | Shallow copy, nested references, and structuredClone() | Learner passed basic prediction and practical shared-headers bug | 2026-11-17 | 7-day spaced review | Scheduled |
 | High | Session 02 enumeration and getLimit exercises; Session 03 enumeration and getLimit exercises | Earlier exercises remain unanswered; explanations do not count as evidence | 2026-11-12 | Outstanding work | Pending learner response |
 
+
+| High | Object.assign partial mutation when a later write fails | Newly taught production failure mode; no output prediction yet | 2026-11-14 | 1-day first recall | Awaiting answer |
+| High | Object.assign vs spread with inherited setters and source getters | Session 04 checkpoint unanswered; Session 05 retaught getter/setter and own-property distinctions | 2026-11-14 | 1-day first recall | Awaiting answer |
+| Medium | Shallow nested merge precedence and explicit headers merge | Session 05; common request-config failure mode not independently applied | 2026-11-14 | 1-day first recall | Awaiting implementation |
+| Medium | Descriptor-preserving copy: getter retention vs spread getter evaluation | Session 05 transfer from descriptor and shallow-copy concepts | 2026-11-14 | 1-day first recall | Awaiting output prediction |
+| High | parseLimit(query: unknown): own-property, syntax, safe integer, and range validation | Repeated query-validation weakness; Session 05 implementation assigned | 2026-11-14 | 1-day first recall | Awaiting implementation |
+| Medium | Promise.allSettled result ordering and bounded concurrency | Session 05 batch-job case assigned | 2026-11-14 | 1-day first recall | Awaiting case analysis |
+
 ## Spaced-repetition policy
 - First review: about 1 day after teaching.
 - After successful recall: schedule the next review about 3 days later, then 7 days, then 14 days.
