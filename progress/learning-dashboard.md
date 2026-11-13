@@ -1,19 +1,19 @@
 # Learning Dashboard
 
-**Status:** Session 04 in progress — exactly 10 concepts taught; first checkpoint pending  
-**Last updated:** 2026-11-12  
+**Status:** Session 05 in progress — exactly 10 concepts taught; exercises pending  
+**Last updated:** 2026-11-13  
 **Completed formal sessions:** 0  
-**Current session:** [Session 04 — Property Semantics, Object Copying, and Reliable Backend Input](../session-reports/2026-11-12-session-04.md)  
-**Previous sessions:** [Session 03](../session-reports/2026-11-11-session-03.md) · [Session 02](../session-reports/2026-11-10-session-02.md) · [Session 01](../session-reports/2026-11-09-session-01.md)
+**Current session:** [Session 05 — Object Assignment Semantics and Safe Backend Boundaries](../session-reports/2026-11-13-session-05.md)  
+**Previous sessions:** [Session 04](../session-reports/2026-11-12-session-04.md) · [Session 03](../session-reports/2026-11-11-session-03.md) · [Session 02](../session-reports/2026-11-10-session-02.md) · [Session 01](../session-reports/2026-11-09-session-01.md)
 
 ## Current focus
-1. Complete Session 04's first output-prediction checkpoint on Object.assign(), spread, and inherited setters.
-2. Retest own vs inherited and enumerable vs non-enumerable properties; Session 01 Q1 and Session 02/03 enumeration exercises remain unanswered.
-3. Complete safe query validation; Session 01 Q3 and Session 02/03 getLimit exercises remain unanswered.
-4. Demonstrate descriptor defaults, non-configurable invariants, accessor behavior, and descriptor-preserving shallow copying independently.
-5. Apply Map/null-prototype dictionary choices to untrusted dynamic keys.
-6. Retain freeze/seal, array mutation, and async iteration distinctions with independent recall.
-7. Keep shallow-copy review scheduled for 2026-11-17 after two successful practical demonstrations.
+1. Complete Session 05's Object.assign/spread output checkpoint, including setter invocation, target identity, and own-property behavior.
+2. Complete Session 04's earlier setter checkpoint; it remains unanswered.
+3. Implement the safe parseLimit(query) helper using unknown narrowing and own-property presence.
+4. Retest enumeration, descriptors, non-configurable invariants, and descriptor-preserving shallow copies from Sessions 01–04.
+5. Explain Object.assign partial mutation, nested merge replacement, and source-getter behavior.
+6. Apply Promise.allSettled with a real concurrency cap to a batch-job case.
+7. Keep shallow-copy review scheduled for 2026-11-17; do not advance intervals without independent recall.
 
 ## Progress summary
 | Area | Status | Evidence / next action |
@@ -40,6 +40,7 @@
 ## Learning cadence
 - **Session 04 first recall:** 2026-11-13 for descriptor invariants, descriptor-preserving copies, Object.assign/spread semantics, safe dictionaries, and untrusted query values; adjust based on actual answers.
 - **Session 01/02/03 outstanding exercises:** remain pending; do not infer success from repeated explanations.
+- **Session 05 first recall:** 2026-11-14 for Object.assign partial mutation, nested merge behavior, getter/descriptor copying, parseLimit validation, and bounded concurrency.
 - **Shallow-copy spaced review:** 2026-11-17.
 - Advance spaced-repetition intervals only after demonstrated recall.
 - **Monthly assessment target:** approximately 2026-12-09, if enough material has been covered.
