@@ -1,56 +1,47 @@
 # Session History
 
-## 2026-11-13 — Session 05: Object Assignment Semantics and Safe Backend Boundaries
-- **Status:** In progress — exactly 10 concepts taught; exercises pending.
-- Read README, dashboard, mastery tracker, revision queue, session history, and Session 04 report before teaching.
+## 2026-11-14 — Session 06: Reliable Object Boundaries, Cancellation, and Backend Testing
+- **Status:** In progress — exactly 10 concepts taught; practice checkpoints pending.
+- Read README, dashboard, mastery tracker, revision queue, session history, and Session 05 report before teaching.
 - Exactly 10 concepts:
-  1. Object.assign source Get / target Set semantics, mutation, and return identity.
-  2. Object spread creates own data properties; inherited target setters are not invoked.
-  3. Source getter execution in assign/spread versus descriptor retrieval.
-  4. Object.assign partial target mutation when a later write throws.
-  5. Shallow merge precedence and explicit nested headers merging.
-  6. Descriptor-preserving shallow copies and accessor retention.
-  7. Non-configurable writable-to-non-writable one-way transition.
-  8. Object.hasOwn presence checks, including own properties with undefined values.
-  9. Express query boundary validation using TypeScript unknown and numeric syntax/range checks.
-  10. Promise.allSettled ordering and bounded concurrency strategies.
-- Assigned output prediction, bug-finding, parseLimit implementation, and batch-job case analysis; no learner answers received in this run.
-- Session 04's earlier Object.assign/spread checkpoint remains unanswered; Sessions 01–03 exercises also remain outstanding.
+  1. Object.assign versus spread: target setters, target identity, and own-property behavior.
+  2. Source getter evaluation versus descriptor-preserving accessor copies.
+  3. Object.assign partial mutation when a later property write throws.
+  4. Shallow nested merge precedence and explicit headers merging.
+  5. Safe parseLimit(query: unknown) with own-property presence, syntax, safe integer, and range checks.
+  6. Bounded worker-pool design preserving input order and collecting partial outcomes.
+  7. AbortController/AbortSignal cooperative cancellation.
+  8. Fetch HTTP status handling, network rejection, and JSON body parsing.
+  9. Express 5 async route rejection forwarding and safe error middleware.
+  10. Node built-in node:test and node:assert/strict boundary testing.
+- Assigned output prediction, bug analysis, parseLimit implementation, bounded worker-pool reasoning, cancellation/fetch analysis, and validator tests; no learner answers received in this run.
+- Session 05 first-recall topics were retaught but remain pending independent answers; intervals do not advance.
+- Sessions 01–04 retain outstanding exercises.
 - No mastery upgrades made from teaching alone.
-- Session 04 due reviews were retaught but remain pending independent evidence; Session 05 first recall scheduled for 2026-11-14.
+- Session 06 first recall scheduled for 2026-11-15.
 - Shallow-copy review remains scheduled for 2026-11-17.
 - Monthly assessment remains targeted for approximately 2026-12-09, conditional on sufficient completed material.
 - No project milestone: four completed formal sessions have not been reached.
+- [Session report](../session-reports/2026-11-14-session-06.md)
+
+## 2026-11-13 — Session 05: Object Assignment Semantics and Safe Backend Boundaries
+- **Status:** In progress — exactly 10 concepts taught; exercises pending.
+- Exactly 10 concepts: Object.assign source Get/target Set; spread data-property creation; source getter behavior; partial mutation on failure; nested merge precedence; descriptor-preserving shallow copies; non-configurable writable transition; hasOwn presence including undefined; Express/TypeScript unknown query validation; Promise.allSettled ordering and bounded concurrency.
+- No learner answers received in the scheduled run.
+- No mastery upgrades made from teaching alone.
 - [Session report](../session-reports/2026-11-13-session-05.md)
 
 ## 2026-11-12 — Session 04: Property Semantics, Object Copying, and Reliable Backend Input
 - **Status:** In progress — exactly 10 concepts taught; first output-prediction checkpoint pending.
-- Read README, dashboard, mastery tracker, revision queue, session history, and Session 03 report before teaching.
-- Exactly 10 concepts:
-  1. Enumeration API recall: Object.keys, Object.getOwnPropertyNames, Reflect.ownKeys, and for...in.
-  2. Object.defineProperty defaults, strict-mode assignment, and return value.
-  3. Non-configurable descriptor invariants and the one-way writable transition.
-  4. Accessor descriptors; getter/setter invocation versus Object.defineProperty reconfiguration.
-  5. Descriptor-preserving shallow copy versus spread and structuredClone.
-  6. Object.assign versus object spread: target mutation, return value, inherited setters, and source getters.
-  7. preventExtensions/seal/freeze and Object.isExtensible/isSealed/isFrozen.
-  8. Map versus Object.create(null) for dynamic dictionaries.
-  9. Express req.query as untrusted input and TypeScript unknown/runtime narrowing.
-  10. Promise.all versus Promise.allSettled, sequential processing, and bounded-concurrency trade-offs.
-- First checkpoint assigned: predict output and explain Object.assign invoking an inherited setter versus object spread creating a new object property. No answer received in this automation run.
-- Sessions 01–03 remain in progress with their outstanding exercises unanswered.
+- Exactly 10 concepts: enumeration APIs; defineProperty defaults; non-configurable invariants; accessor redefinition; descriptor-preserving shallow copy; assign versus spread; integrity levels; Map versus null-prototype dictionary; Express unknown query values; Promise.all versus allSettled and bounded concurrency.
+- No learner answers received in that scheduled run.
 - No mastery upgrades made from teaching alone.
-- First recall review for descriptor invariants, descriptor copies, assign/spread, safe dictionaries, and query validation scheduled for 2026-11-13.
-- Shallow-copy spaced review remains 2026-11-17.
-- Monthly assessment remains targeted for approximately 2026-12-09, conditional on sufficient completed material.
-- No project milestone yet: four completed formal sessions have not been reached.
 - [Session report](../session-reports/2026-11-12-session-04.md)
 
 ## 2026-11-11 — Session 03: Property Semantics, Copying, and Safe Request Data
 - **Status:** In progress — exactly 10 concepts taught; exercises pending.
-- Read README, dashboard, mastery tracker, revision queue, session history, and Session 02 report before teaching.
 - Exactly 10 concepts: enumeration APIs; ownership vs enumerability; descriptors; defineProperty defaults/invariants; accessors; descriptor-preserving shallow copies; preventExtensions/seal/freeze; map/forEach async trap; sort/toSorted shallow-copy behavior; prototype pollution and untrusted Express query data.
-- Session 03 Exercises A and B assigned; no answers recorded.
+- Session 03 Exercises A and B assigned; no answers received.
 - No mastery upgrades made from teaching alone.
 - [Session report](../session-reports/2026-11-11-session-03.md)
 
