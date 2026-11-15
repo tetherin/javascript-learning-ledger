@@ -1,3 +1,26 @@
+## 2026-11-15 — Session 07: Reliable JavaScript Boundaries — Recall and Failure Modes
+- **Status:** In progress — exactly 10 review/application concepts taught; independent recall pending.
+- Read README.md, dashboard, mastery tracker, revision queue, session history, and Session 06 report before teaching.
+- Session 06 first-recall set was due today. All ten topics were revisited with fresh edge cases; no learner answers were received, so no interval advanced.
+- Exactly 10 concepts:
+  1. Object.assign source enumeration, Symbol keys, source Get, target Set, and target identity.
+  2. Object.assign partial mutation and lack of rollback after a later write fails.
+  3. Shallow override precedence, including explicit undefined replacing a default and nested-object replacement.
+  4. Descriptor-preserving copies: getter capture without execution, prototype retention, and shallow nested aliases.
+  5. Strict query-boundary validation: record shape, own-property presence, decimal-string syntax, safe integer, and range.
+  6. Bounded worker-pool invariants, input-order preservation, and measuring the active-task cap.
+  7. AbortSignal one-shot behavior, AbortSignal.timeout(), and AbortSignal.any().
+  8. Fetch response status, content-type/body parsing, and one-shot response-body consumption.
+  9. Express 5 returned-Promise forwarding versus unreturned/detached asynchronous work.
+  10. node:test asynchronous test functions and assert.rejects versus synchronous assert.throws.
+- Assigned fresh output prediction, bug analysis, parseLimit implementation/tests, worker-pool concurrency proof, cancellation/fetch reasoning, Express route correction, and asynchronous test-writing exercises.
+- No learner answers were received; no mastery upgrades or interval advances were made.
+- Session 07 first recall scheduled for 2026-11-16.
+- Shallow-copy/structuredClone review remains scheduled for 2026-11-17.
+- Monthly assessment remains targeted for approximately 2026-12-09, conditional on sufficient completed material.
+- No project milestone: four completed formal sessions have not been reached.
+- [Session report](../session-reports/2026-11-15-session-07.md)
+
 # Session History
 
 ## 2026-11-14 — Session 06: Reliable Object Boundaries, Cancellation, and Backend Testing
