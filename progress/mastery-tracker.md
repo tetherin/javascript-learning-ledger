@@ -35,3 +35,9 @@ Mastery levels:
 | Async JavaScript | Promises and async/await | Introduced; not independently assessed | Async iteration, settlement, worker pools, and cancellation taught; no learner implementation yet | Assess with a practical task |
 
 Only advance a level after reviewing the learner's actual explanation, implementation, or tests. Do not infer mastery from exposure.
+
+ 
+## Session 07 evidence note — 2026-11-15
+- Session 06's ten concepts were revisited with fresh edge cases and production failure modes.
+- No learner answers or code were received in this scheduled run.
+- No mastery level was upgraded. Retaught concepts remain at their existing levels until independent evidence is reviewed.
