@@ -24,8 +24,10 @@
 | Medium | Descriptor-preserving copy: getter retention vs spread getter evaluation | Transfer from descriptor and shallow-copy concepts | 2026-11-14 | 1-day first recall | Retaught in Session 06; independent output pending |
 | High | parseLimit(query: unknown): own-property, syntax, safe integer, and range validation | Repeated query-validation weakness | 2026-11-14 | 1-day first recall | Retaught in Session 06; independent implementation and tests pending |
 | Medium | Promise.allSettled result ordering and bounded concurrency | Batch-job case not demonstrated | 2026-11-14 | 1-day first recall | Retaught with worker-pool pattern in Session 06; independent implementation pending |
-| High | Session 06: Object.assign/spread, partial mutation, nested merge, descriptor copy, parseLimit, bounded worker pool | New session's six review/application topics | 2026-11-15 | 1-day first recall | Scheduled; no answers received |
-| Medium | Session 06: AbortController, fetch response handling, Express 5 errors, node:test | Newly introduced production HTTP/testing concepts | 2026-11-15 | 1-day first recall | Scheduled; no answers received |
+| High | Session 06: Object.assign/spread, partial mutation, nested merge, descriptor copy, parseLimit, bounded worker pool | New session's six review/application topics | 2026-11-15 | 1-day first recall | Retaught in Session 07; independent answers still pending |
+| Medium | Session 06: AbortController, fetch response handling, Express 5 errors, node:test | Newly introduced production HTTP/testing concepts | 2026-11-15 | 1-day first recall | Retaught in Session 07; independent answers still pending |
+
+| High | Session 07: Object.assign/spread Symbol and setter semantics; partial mutation; undefined merge overrides; descriptor copies; parseLimit record validation; bounded worker pool; cancellation composition; Fetch body handling; Express 5 returned-Promise handling; async node:test assertions | Fresh first-recall set after Session 07 | 2026-11-16 | 1-day first recall | Scheduled; no answers received |
 
 ## Spaced-repetition policy
 - First review: about 1 day after teaching.
