@@ -1,19 +1,19 @@
 # Learning Dashboard
 
-**Status:** Session 07 in progress — exactly 10 review/application concepts taught; independent recall pending  
-**Last updated:** 2026-11-15  
+**Status:** Session 08 in progress — exactly 10 concepts taught; independent recall pending
+**Last updated:** 2026-11-16
 **Completed formal sessions:** 0  
-**Current session:** [Session 07 — Reliable JavaScript Boundaries: Recall and Failure Modes](../session-reports/2026-11-15-session-07.md)
+**Current session:** [Session 08 — Property Introspection, Descriptors, and Safe Request Schemas](../session-reports/2026-11-16-session-08.md)
 **Previous sessions:** [Session 05](../session-reports/2026-11-13-session-05.md) · [Session 04](../session-reports/2026-11-12-session-04.md) · [Session 03](../session-reports/2026-11-11-session-03.md) · [Session 02](../session-reports/2026-11-10-session-02.md) · [Session 01](../session-reports/2026-11-09-session-01.md)
 
 ## Current focus
-1. Complete Session 07's independent recall checkpoints for assignment semantics, descriptor copying, query validation, bounded concurrency, cancellation, Fetch, Express 5, and node:test.
-2. Implement parseLimit(query: unknown) independently, including absent versus own-undefined versus inherited values and strict numeric syntax/range cases.
-3. Implement and test a bounded worker pool with a measured maximum of five active tasks and preserved result order.
-4. Complete outstanding enumeration and ownership exercises from Sessions 01–04; repeated teaching is not evidence of recall.
-5. Complete descriptor/accessor and integrity-level output predictions from Sessions 02–04.
-6. Explain cancellation, HTTP status/body handling, and Express 5 returned-Promise error forwarding.
-7. Write asynchronous node:test assertions with assert.rejects and synchronous assertions with assert.throws.
+1. Complete Session 08's independent key-enumeration and ownership predictions.
+2. Independently inspect descriptors and explain defineProperty defaults and non-configurable transitions.
+3. Explain preventExtensions, seal, and freeze, including shallow nested behavior.
+4. Solve the prototype-pollution case and choose Map versus Object.create(null) with justification.
+5. Implement the strict Zod 4 query schema and Express route without mutating req.query.
+6. Complete Session 07's still-pending bounded-concurrency, AbortSignal, Fetch, Express async-error, and node:test checkpoints.
+7. Complete outstanding Session 01–04 enumeration, descriptor, integrity-level, and query-validation exercises.
 8. Keep shallow-copy/structuredClone review scheduled for 2026-11-17.
 
 ## Progress summary
@@ -44,10 +44,9 @@
 | React, PostgreSQL, Drizzle, authentication | Unassessed or introduced only where noted | Assess progressively |
 
 ## Learning cadence
-- **Session 05 first recall:** revisited 2026-11-14; no independent answers received, so its interval does not advance.
-- **Session 06 first recall:** revisited 2026-11-15 during Session 07; no independent answers received, so its interval does not advance.
-- **Session 07 first recall:** scheduled for 2026-11-16 across the 10 review/application concepts taught today.
-- **Outstanding Sessions 01–05:** enumeration, descriptors, assignment, query validation, and concurrency exercises remain pending.
+- **Session 05/06/07 reviews:** Retaught in later sessions, but independent answers remain pending; intervals do not advance from exposure.
+- **Session 07 first recall:** Due 2026-11-16. Session 08 revisited related object-introspection, descriptor, prototype-safety, and validation themes; its concurrency, cancellation, Fetch, Express, and testing checkpoints remain pending.
+- **Session 08 first recall:** Scheduled for 2026-11-17.
 - **Shallow-copy spaced review:** 2026-11-17.
 - Advance spaced-repetition intervals only after demonstrated recall.
 - **Monthly assessment target:** approximately 2026-12-09, conditional on sufficient completed material.
