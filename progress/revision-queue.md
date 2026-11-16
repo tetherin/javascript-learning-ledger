@@ -36,3 +36,15 @@
 - Do not advance an interval merely because an explanation was shown; require an independent answer.
 - Retaught-but-unanswered topics remain pending and do not advance their interval.
 - Due reviews can occupy some of the 10 daily tips when substantive. Never exceed exactly 10 tips.
+
+
+## Session 08 review
+| Priority | Topic | Reason | Review date | Interval | Status |
+|---|---|---|---|---|---|
+| High | Session 08: property dimensions, Reflect.ownKeys/key inspection, ownership versus enumerability, defineProperty defaults, non-configurable invariants, integrity levels, prototype-safe dictionaries, Zod strict query schemas, Object.fromEntries "__proto__" behavior | Exactly 10 concepts taught on 2026-11-16; independent recall not yet demonstrated | 2026-11-17 | 1-day first recall | Scheduled; no answers received |
+
+### Session 07 due-review clarification — 2026-11-16
+- Related enumeration, descriptor, prototype-safety, and validation themes were revisited in Session 08, but no independent answers were received.
+- Session 07's bounded worker pool, AbortSignal composition, Fetch response-body handling, Express 5 detached Promise handling, and node:test assertions remain pending.
+- Do not advance any Session 07 interval until the learner supplies independent explanations, predictions, code, or tests.
+- Shallow-copy/structuredClone review remains scheduled for 2026-11-17.
