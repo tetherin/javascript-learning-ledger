@@ -1,3 +1,27 @@
+## 2026-11-16 — Session 08: Property Introspection, Descriptors, and Safe Request Schemas
+- **Status:** In progress — exactly 10 concepts taught; independent recall pending.
+- Read README, dashboard, mastery tracker, revision queue, session history, and Session 07 report before teaching.
+- Prioritized older high-priority enumeration, descriptor, integrity-level, prototype-safety, and query-validation gaps while revisiting related Session 07 first-recall material.
+- Exactly 10 concepts:
+  1. Property dimensions: own/inherited, enumerable/non-enumerable, string/Symbol.
+  2. Object.keys, getOwnPropertyNames, getOwnPropertySymbols, and Reflect.ownKeys.
+  3. for...in traverses enumerable string properties through the prototype chain; own-property guard.
+  4. Object.hasOwn versus in versus propertyIsEnumerable.
+  5. Object.defineProperty defaults, return value, and no inherited setter invocation.
+  6. Non-configurable data-property transitions, including writable true to false.
+  7. preventExtensions, seal, freeze, and shallow immutability.
+  8. Prototype-pollution risks in dynamic dictionaries and safer Map/null-prototype/allowlist choices.
+  9. Zod 4 strict runtime query schemas, transformations, defaults, and safeParse in Express.
+  10. Object.fromEntries duplicate keys and own "__proto__" data-property behavior, including downstream merge risk.
+- Assigned five independent checkpoints covering exact enumeration outputs, descriptor invariants, prototype-safe dictionaries, Zod query implementation, and shallow immutability.
+- No learner answers received; no mastery upgrades made.
+- Session 07's concurrency, cancellation, Fetch, Express error, and node:test checkpoints remain pending.
+- Session 08 first recall scheduled for 2026-11-17.
+- Shallow-copy/structuredClone review remains scheduled for 2026-11-17.
+- Monthly assessment remains targeted for approximately 2026-12-09, conditional on sufficient completed material.
+- No project milestone: four completed formal sessions have not been reached.
+- [Session report](../session-reports/2026-11-16-session-08.md)
+
 ## 2026-11-15 — Session 07: Reliable JavaScript Boundaries — Recall and Failure Modes
 - **Status:** In progress — exactly 10 review/application concepts taught; independent recall pending.
 - Read README.md, dashboard, mastery tracker, revision queue, session history, and Session 06 report before teaching.
