@@ -41,3 +41,10 @@ Only advance a level after reviewing the learner's actual explanation, implement
 - Session 06's ten concepts were revisited with fresh edge cases and production failure modes.
 - No learner answers or code were received in this scheduled run.
 - No mastery level was upgraded. Retaught concepts remain at their existing levels until independent evidence is reviewed.
+
+
+## Session 08 evidence note — 2026-11-16
+- Exactly 10 concepts were taught: property dimensions; own-key inspection APIs; for...in prototype traversal; ownership versus enumerability checks; defineProperty defaults and setter behavior; non-configurable transitions; preventExtensions/seal/freeze; prototype-pollution defenses; Zod 4 strict query schemas; Object.fromEntries duplicate-key and "__proto__" behavior.
+- No learner answers or code were received in this scheduled run.
+- No mastery level was upgraded. Existing levels and the prior shallow-copy evidence remain unchanged.
+- Zod strict schema usage, Reflect.ownKeys, descriptor invariants, integrity levels, and safe dynamic dictionaries remain introduced until independently demonstrated.
