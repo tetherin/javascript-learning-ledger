@@ -1,3 +1,28 @@
+## 2026-11-17 — Session 09: Array Semantics, Copy Boundaries, and Safe Collections
+- **Status:** In progress — exactly 10 concepts taught; independent exercises pending.
+- Read README, dashboard, mastery tracker, revision queue, session history, and Session 08 report before teaching.
+- Prioritized the due shallow-copy/structuredClone review and selected Session 08 object/collection themes, then progressed into array semantics and API-data transformations.
+- Exactly 10 concepts:
+  1. Object/array spread creates shallow copies; nested references remain shared.
+  2. structuredClone deep-clones supported data graphs and preserves cycles, but does not preserve functions, custom prototype behavior, or property descriptors/accessors.
+  3. Sparse-array holes differ from explicit undefined; map/filter/forEach skip holes while spread materializes undefined.
+  4. Array.from converts iterables and array-like objects into a new dense array and can map during construction.
+  5. flatMap maps and flattens exactly one level for nested API data.
+  6. forEach does not await async callbacks; choose sequential for...of or parallel Promise.all deliberately.
+  7. sort mutates and defaults to string ordering; toSorted returns a new shallow array and numeric sorting needs a comparator.
+  8. Object.entries only returns own enumerable string keys; Object.fromEntries can create Symbol keys and later duplicate keys win.
+  9. Object.freeze is shallow; immutable updates copy the changed path.
+  10. Map supports arbitrary keys and insertion order; object/Map serialization trade-offs matter.
+- Assigned five checkpoints: output prediction, async forEach bug fix, flatMap implementation, Array.from conversion, and safe dynamic permissions dictionary case.
+- No learner answers received; no mastery upgrades made.
+- Session 08 descriptor invariants and Zod implementation remain pending; selected Object.entries/fromEntries, freeze, and Map themes were revisited without independent answers.
+- Session 07 bounded concurrency, cancellation, Fetch, Express async-error, and node:test checkpoints remain pending.
+- Shallow-copy/structuredClone review remains due 2026-11-17 because no new independent answer was received.
+- Session 09 first recall scheduled for 2026-11-18.
+- Monthly assessment remains targeted for approximately 2026-12-09, conditional on sufficient completed material.
+- No project milestone: four completed formal sessions have not been reached.
+- [Session report](../session-reports/2026-11-17-session-09.md)
+
 ## 2026-11-16 — Session 08: Property Introspection, Descriptors, and Safe Request Schemas
 - **Status:** In progress — exactly 10 concepts taught; independent recall pending.
 - Read README, dashboard, mastery tracker, revision queue, session history, and Session 07 report before teaching.
