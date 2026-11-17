@@ -1,20 +1,18 @@
 # Learning Dashboard
 
-**Status:** Session 08 in progress — exactly 10 concepts taught; independent recall pending
-**Last updated:** 2026-11-16
+**Status:** Session 09 in progress — exactly 10 concepts taught; independent exercises pending
+**Last updated:** 2026-11-17
 **Completed formal sessions:** 0  
-**Current session:** [Session 08 — Property Introspection, Descriptors, and Safe Request Schemas](../session-reports/2026-11-16-session-08.md)
-**Previous sessions:** [Session 05](../session-reports/2026-11-13-session-05.md) · [Session 04](../session-reports/2026-11-12-session-04.md) · [Session 03](../session-reports/2026-11-11-session-03.md) · [Session 02](../session-reports/2026-11-10-session-02.md) · [Session 01](../session-reports/2026-11-09-session-01.md)
+**Current session:** [Session 09 — Array Semantics, Copy Boundaries, and Safe Collections](../session-reports/2026-11-17-session-09.md)
+**Previous sessions:** [Session 08](../session-reports/2026-11-16-session-08.md) · [Session 07](../session-reports/2026-11-15-session-07.md) · [Session 06](../session-reports/2026-11-14-session-06.md) · [Session 05](../session-reports/2026-11-13-session-05.md) · [Session 04](../session-reports/2026-11-12-session-04.md)
 
 ## Current focus
-1. Complete Session 08's independent key-enumeration and ownership predictions.
-2. Independently inspect descriptors and explain defineProperty defaults and non-configurable transitions.
-3. Explain preventExtensions, seal, and freeze, including shallow nested behavior.
-4. Solve the prototype-pollution case and choose Map versus Object.create(null) with justification.
-5. Implement the strict Zod 4 query schema and Express route without mutating req.query.
-6. Complete Session 07's still-pending bounded-concurrency, AbortSignal, Fetch, Express async-error, and node:test checkpoints.
-7. Complete outstanding Session 01–04 enumeration, descriptor, integrity-level, and query-validation exercises.
-8. Keep shallow-copy/structuredClone review scheduled for 2026-11-17.
+1. Complete Session 09's independent shallow-copy, sparse-array, Array.from(), flatMap(), async iteration, sorting, object-entry, and Map exercises.
+2. Complete the still-due shallow-copy/structuredClone spaced review with an independent unfamiliar example.
+3. Complete Session 08's descriptor defaults, non-configurable transitions, integrity levels, prototype-pollution case, and Zod strict query-schema implementation.
+4. Complete Session 07's bounded-concurrency, AbortSignal, Fetch body, Express 5 async-error, and node:test checkpoints.
+5. Complete older Session 01–04 enumeration, descriptor, integrity-level, and query-validation exercises.
+6. Keep mastery unchanged until explanations, implementations, or tests provide evidence.
 
 ## Progress summary
 | Area | Status | Evidence / next action |
@@ -43,11 +41,18 @@
 | Functions and scope | Unassessed | Baseline questions later |
 | React, PostgreSQL, Drizzle, authentication | Unassessed or introduced only where noted | Assess progressively |
 
+| JavaScript arrays | Sparse arrays: holes vs explicit undefined | Introduced | Session 09 explained callback skipping versus spread materialization; independent prediction pending |
+| JavaScript arrays | Array.from() | Introduced | Session 09 covered iterable/array-like conversion, dense output, and optional mapping callback; independent implementation pending |
+| JavaScript arrays | flatMap() | Introduced | Session 09 covered one-level flattening for nested API relationships; independent implementation pending |
+| JavaScript arrays | Async iteration with forEach/map/for...of/Promise.all | Introduced | Session 09 retaught that forEach discards callback Promises; sequential/parallel choice pending |
+| JavaScript collections | Map vs object dictionaries | Introduced | Session 09 revisited arbitrary keys, insertion order, and JSON serialization trade-offs; case solution pending |
+
 ## Learning cadence
 - **Session 05/06/07 reviews:** Retaught in later sessions, but independent answers remain pending; intervals do not advance from exposure.
 - **Session 07 first recall:** Due 2026-11-16. Session 08 revisited related object-introspection, descriptor, prototype-safety, and validation themes; its concurrency, cancellation, Fetch, Express, and testing checkpoints remain pending.
-- **Session 08 first recall:** Scheduled for 2026-11-17.
-- **Shallow-copy spaced review:** 2026-11-17.
+- **Session 08 first recall:** Due 2026-11-17; selected Object.entries/fromEntries, freeze, and Map themes were revisited in Session 09, but no independent answers were received. Descriptor and Zod checkpoints remain pending.
+- **Shallow-copy spaced review:** Due 2026-11-17; retaught with a fresh example in Session 09, but no new independent answer was received, so the review remains due.
+- **Session 09 first recall:** Scheduled for 2026-11-18.
 - Advance spaced-repetition intervals only after demonstrated recall.
 - **Monthly assessment target:** approximately 2026-12-09, conditional on sufficient completed material.
 - **Project application:** after 4 completed formal sessions. No formal session has been completed yet.
