@@ -48,3 +48,26 @@
 - Session 07's bounded worker pool, AbortSignal composition, Fetch response-body handling, Express 5 detached Promise handling, and node:test assertions remain pending.
 - Do not advance any Session 07 interval until the learner supplies independent explanations, predictions, code, or tests.
 - Shallow-copy/structuredClone review remains scheduled for 2026-11-17.
+
+
+## Session 09 first recall — scheduled 2026-11-18
+
+| Priority | Topic | Reason | Review date | Interval | Status |
+|---|---|---|---|---|---|
+| High | Shallow object/array copies and nested-reference aliasing | Existing Practicing evidence; Session 09 revisited with new example | 2026-11-18 | 1-day recall after retaught example | Scheduled; no new learner answer |
+| High | structuredClone supported data versus descriptors/prototypes/functions | New limitation distinctions taught in Session 09 | 2026-11-18 | 1-day first recall | Scheduled |
+| Medium | Sparse-array holes versus explicit undefined | New array edge case taught in Session 09 | 2026-11-18 | 1-day first recall | Scheduled |
+| Medium | Array.from array-like conversion and dense output | New API usage taught in Session 09 | 2026-11-18 | 1-day first recall | Scheduled |
+| Medium | flatMap one-level flattening for nested API data | New API usage taught in Session 09 | 2026-11-18 | 1-day first recall | Scheduled |
+| High | forEach async callback versus sequential/parallel iteration | Repeated async iteration weakness; Session 09 retaught failure mode | 2026-11-18 | 1-day recall | Scheduled |
+| Medium | sort mutation, toSorted identity, and numeric comparator | Revisited with a fresh numeric example in Session 09 | 2026-11-18 | 1-day recall | Scheduled |
+| Medium | Object.entries/fromEntries and own/enumerable/Symbol distinctions | Session 08 due-review theme revisited in Session 09; no answer | 2026-11-18 | Recall pending | Scheduled |
+| Medium | Object.freeze shallow behavior and immutable path copying | Session 08 due-review theme revisited in Session 09; no answer | 2026-11-18 | Recall pending | Scheduled |
+| High | Map versus object for arbitrary/untrusted keys and serialization | Session 08 due-review theme revisited in Session 09; no answer | 2026-11-18 | Recall pending | Scheduled |
+
+### Due-review status — 2026-11-17
+- Session 08 first recall remains due. Session 09 revisited selected Object.entries/fromEntries, freeze, and Map themes, but no independent answer was received. Descriptor invariants and the Zod strict query-schema implementation remain pending.
+- Shallow-copy/structuredClone review remains due. The concept was retaught, but no new independent answer was received; do not advance its interval.
+- Session 07 bounded concurrency, AbortSignal, Fetch response-body handling, Express 5 detached Promise handling, and node:test assertions remain pending.
+- Older Session 01–04 enumeration, descriptors, integrity levels, and query-validation tasks remain outstanding.
+- Do not advance any interval merely because a concept was retaught.
